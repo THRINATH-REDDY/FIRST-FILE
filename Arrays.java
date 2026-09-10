@@ -1,3 +1,4 @@
+
 // public class Arrays{
 //     public static void main(String[] args){
 //         String[] cars={"MARUTHI SUZUKI","HYUNDAI","MAHINDRA","TOYATO"};
@@ -14,12 +15,12 @@
     
 //     }
 // }
-//to create array
-//1.we only give
-//string[] name={"","",""}
-//to change name[0]=change;
-//2.input from user
-//int array[]=new int[n]//n meaNS that many gives space
+// to create array
+// 1.we only give
+// string[] name={"","",""}
+// to change name[0]=change;
+// 2.input from user
+// int array[]=new int[n]//n meaNS that many gives space
 
 // import java.util.*;
 // public class Arrays{
@@ -40,14 +41,36 @@
 //         System.out.println(len);
 //     }
 // }
-// 
-//for each
+
+// for each
+// public class Arrays{
+//     public static void main(String[] args){
+//         String cars[]={"MARUTHI SUZIKI","HYUNDAI","TOYATO","SKODA"};
+//         for(String a:cars){//a becomes cars single single word
+//         System.out.println(a);
+
+//         }
+//     }
+//}
+import java.util.*;
 public class Arrays{
     public static void main(String[] args){
-        String cars[]={"MARUTHI SUZIKI","HYUNDAI","TOYATO","SKODA"};
-        for(String a:cars){//a becomes cars single single word
-        System.out.println(a);
+        Scanner input=new Scanner(System.in);
+        System.out.println("ENTER THE NUMBER OF STUDENTS IN CLASS :");
+        int num=input.nextInt();
+        input.nextLine();
 
+        String names[]=new String[num];
+        System.out.println("ENTER THE STUDENTS NAME:");
+        for(int a=0;a<num;a++){
+            names[a]=input.nextLine();
+            
         }
+        for(int a=0;a<num;a++){
+            System.out.println(names[a]);
+            
+        }
+
+
     }
 }
