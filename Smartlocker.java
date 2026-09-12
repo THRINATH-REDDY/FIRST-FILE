@@ -14,7 +14,7 @@ public class Smartlocker{
         
         boolean lockerstatus=true;
         while(true){
-            System.out.println("============SMART LOCKER SYSTEM============\n1.STORE PARCEL\n2.RETRIVE PARCEL\n3.LOCKER STATUS\n4.EXIT");
+            System.out.println("============ THRINATH SMART LOCKER SYSTEM============\n1.STORE PARCEL\n2.RETRIVE PARCEL\n3.LOCKER STATUS\n4.EXIT");
             System.out.println("ENTER YOUR CHOICE:");
             int choice=input.nextInt();
             input.nextLine();
